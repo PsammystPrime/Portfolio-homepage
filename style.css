@@ -1,3 +1,15 @@
+main :last-child {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project :last-child {
+  padding: 10px 10px 30px 10px;
+  max-width: 350px;
+}
+.project :last-child :first-child {
+  display: flex;
+  justify-content: space-between;
+}
 footer {
   display: flex;
   gap: 20px;
