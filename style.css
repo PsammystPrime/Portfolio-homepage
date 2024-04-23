@@ -1,4 +1,5 @@
 main :last-child {
+  padding: 30px 40px;
   display: flex;
   flex-wrap: wrap;
 }
