@@ -96,6 +96,7 @@ footer .contact {
   flex-direction: column;
   gap: 10px;
   padding-left: 30px;
+  padding-right: 3px;
 }
 footer :first-child :last-child {
   display: flex;
