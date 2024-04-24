@@ -22,15 +22,16 @@ header {
   align-self: center;
 }
 .about {
-  padding-top: 30px;
+  margin-top: 30px;
+  padding: 0 5px;
   display: flex;
-  background-color: aqua;
   flex-direction: column;
   gap: 10px;
+  max-height: 300px;
 }
-header :last-child :last-child {
+.about :last-child {
   display: flex;
-  align-self: right;
+  justify-content: right;
 }
 main :last-child {
   padding: 20px 30px;
