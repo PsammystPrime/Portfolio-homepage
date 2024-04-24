@@ -57,6 +57,8 @@ ul {
 .projectsContainer {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .project {
   margin: 5px;
