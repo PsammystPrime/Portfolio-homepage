@@ -110,7 +110,6 @@ footer :first-child :last-child {
 @media (max-width: 500px) {
   footer img {
     width: 100%;
-    /* max-width: 23rem; */
     height: auto;
   }
   .about {
