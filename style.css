@@ -4,31 +4,36 @@
 header {
   padding: 30px 20px;
   display: flex;
-  gap: 30px;
+  /* gap: 30px; */
 }
 .profile {
   min-width: 400px;
   min-height: 400px;
   background-image: url(./public/profile.png);
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   position: relative;
 }
 .profile h1 {
   color: rgb(19, 218, 168);
   position: absolute;
-  bottom: -0px;
+  bottom: -23px;
   left: 70px;
   align-self: center;
 }
 .about {
   margin-top: 30px;
-  padding: 0 5px;
+  padding: 0 5px 0 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
   max-height: 300px;
   max-width: 50rem;
+  border-bottom: 2px solid green;
+  border-top: 2px solid green;
+  border-right: 2px solid green;
 }
 .about :last-child {
   display: flex;
