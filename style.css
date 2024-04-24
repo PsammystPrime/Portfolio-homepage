@@ -85,8 +85,9 @@ ul {
 footer {
   display: flex;
   gap: 20px;
-  background-color: rgba(78, 170, 231, 0.315);
+  background-color: #0c4c77d8;
   padding: 30px;
+  color: white;
 }
 footer .contact {
   display: flex;
