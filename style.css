@@ -72,13 +72,14 @@ ul {
 .projectInfo div ul {
   display: flex;
 }
+
+/* footer */
 footer {
   display: flex;
   gap: 20px;
-  background-color: rgba(9, 141, 230, 0.315);
   padding: 30px;
 }
-footer :first-child {
+footer .contact {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -87,7 +88,8 @@ footer :first-child :last-child {
   display: flex;
   gap: 10px;
 }
-footer :last-child {
-  object-fit: contain;
-  max-width: 400px;
+.email li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
