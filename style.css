@@ -28,6 +28,7 @@ header {
   flex-direction: column;
   gap: 10px;
   max-height: 300px;
+  max-width: 50rem;
 }
 .about :last-child {
   display: flex;
@@ -77,6 +78,7 @@ ul {
 footer {
   display: flex;
   gap: 20px;
+  background-color: rgba(78, 170, 231, 0.315);
   padding: 30px;
 }
 footer .contact {
